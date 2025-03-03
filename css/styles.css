@@ -1,0 +1,44 @@
+* {
+    font-family: "MS Sans Serif", sans-serif;
+  }
+  
+  body {
+    background-color: #c0c0c0;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .window {
+    background-color: #f0f0f0;
+    border: 2px solid #000080;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .button {
+    font-family: "MS Sans Serif", sans-serif;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 2px solid #000080;
+    background-color: #d0d0d0;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+  }
+  
+  .button:active {
+    background-color: #a0a0a0;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .title-bar {
+    background-color: #000080;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
